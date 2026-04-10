@@ -25,7 +25,6 @@ class TestCalculateDiscountedPrice(unittest.TestCase):
         result = calculate_discounted_price(200, 0)
         self.assertAlmostEqual(result, 0.0)
 
-
 class TestGetUserInfo(unittest.TestCase):
     """用户信息查询函数测试。"""
 

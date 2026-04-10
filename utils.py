@@ -4,7 +4,6 @@
 
 import sqlite3
 
-
 def calculate_discounted_price(price, discount):
     """
     计算折扣后的价格。
